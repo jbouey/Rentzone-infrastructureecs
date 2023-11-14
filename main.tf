@@ -6,7 +6,7 @@ locals {
 
 #create vpc module
 module "vpc" {
-  source                 = "git@github.com:jbouey/TerraformModule.git//VPC"
+  source                 = "git@github.com:jbouey/TerraformModule.git//vpc"
   region                 = local.region
   project_name           = local.project_name
   environment            = local.environment
