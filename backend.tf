@@ -4,7 +4,7 @@ terraform {
     bucket         = "terra-state-and-anon1"
     key            = "terraform-module/rentzone/terraform.tfstate"
     region         = "us-east-1"
-    profile        = "terraform-user"
+    profile        = "iamadmin"
     dynamodb_table = "terraform-state-lock"
   }
 }
