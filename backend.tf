@@ -6,6 +6,6 @@ terraform {
     region         = "us-east-1"
     profile        = "iamadmin"
     dynamodb_table = "terraform-state-lock"
-    encrypt = true
+    encrypt        = true
   }
 }
